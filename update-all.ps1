@@ -1,0 +1,1 @@
+schtasks /run /tn "Nvidia-Updater"; Get-WindowsUpdate; Get-WUInstall -AcceptAll -IgnoreReboot; Read-Host -Prompt "Press Enter to exit..."
